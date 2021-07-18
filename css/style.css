@@ -180,3 +180,32 @@ section.about p {
 .carousel h2:after {
     background-color: #24282f;
 }
+
+.carousel h2:after {
+    margin: 22px auto 50px;
+}
+
+
+.carousel-photo {
+    display: block;
+    width: 72px;
+    margin:  0 auto 31px;
+}
+
+.carousel p {
+    font-weight: 300;
+    font-size: 11px;
+    margin-bottom: 36px;
+}
+
+.carousel h3 {
+    font-weight: 600;
+    color: #b5a263;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.carousel h4 {
+    font-size: 11px;
+
+}
