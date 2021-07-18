@@ -136,7 +136,7 @@ section.about p {
     background-color: #dedede;
     text-decoration: none;
     text-align: center;
-    line-height: 26px;
+    line-height: 25px;
     transition: .3s;
 }
 
@@ -148,6 +148,7 @@ section.about p {
 .item-socials a i {
     color: #fff;
     font-size: 14px;
+    transition: .3s;
 }
 
 .show-btn {
@@ -269,4 +270,35 @@ section.about p {
 
 .subscribe-item button:hover {
     background-color: #d0b97d
+}
+
+footer {
+    padding: 13px 0;
+    background-color: #24282f;
+}
+
+.container.d-flex.footer {
+    align-items: center;
+}
+
+footer span {
+    font-size: 10px;
+    color: #6e7279;
+}
+
+footer .item-socials a {
+    background-color: transparent;
+    border: 1px solid #5d6168;
+    margin-left: 5px;
+}
+footer .item-socials a i {
+    color: #5d6168;
+}
+
+footer .item-socials a:hover {
+    border: 1px solid transparent;
+}
+
+footer .item-socials a:hover i {
+    color: #fff;
 }
