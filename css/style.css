@@ -233,8 +233,11 @@ section.about p {
     margin-bottom: 15px;
 }
 
-.subscribe-item a {
+.subscribe-item span {
     display: block;
+}
+
+.subscribe-item a {
     color: #6e7279;
     text-decoration: none;
 }
