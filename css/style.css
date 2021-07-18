@@ -207,5 +207,66 @@ section.about p {
 
 .carousel h4 {
     font-size: 11px;
+}
 
+.subscribe {
+    padding: 64px 0 36px;
+    background-color: #2b2f35;
+    font-size: 11px;
+    color: #6e7279;
+    line-height: 19px;
+}
+
+.subscribe h3 {
+    color: #b5a263;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.subscribe-item {
+    max-width: 236px;
+}
+
+.subscribe-item address {
+    font-style: normal;
+    margin-bottom: 15px;
+}
+
+.subscribe-item a {
+    display: block;
+    color: #6e7279;
+    text-decoration: none;
+}
+
+
+.subscribe div:nth-child(2) {
+    max-width: 180px;
+}
+
+
+.subscribe-item input {
+    width: 100%;
+    padding-left: 8px;
+    height: 29px;
+    background-color: transparent;
+    border: 1px solid #4a4e55;
+    outline: none;
+    margin-bottom: 8px;
+    color: #b5a263;
+    font-size: 11px;
+}
+
+.subscribe-item button {
+    height: 29px;
+    width: 100%;
+    background-color: #b5a263;
+    border: none;
+    color: #fff;
+    font-size: 11px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.subscribe-item button:hover {
+    background-color: #d0b97d
 }
