@@ -210,6 +210,34 @@ section.about p {
     font-size: 11px;
 }
 
+.owl-nav {
+    position: absolute;
+    width: 100%;
+    top: 20%;
+}
+
+.owl-nav .owl-prev {
+    position: absolute;
+    left: 0;
+}
+
+.owl-nav .owl-next {
+    position: absolute;
+    right: 0;
+}
+
+.owl-nav .owl-prev:after {
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    content: "\f053";
+}
+
+.owl-nav .owl-next:after {
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    content: "\f054";
+}
+
 .subscribe {
     padding: 64px 0 36px;
     background-color: #2b2f35;
